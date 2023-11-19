@@ -1,15 +1,38 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 body {
-  margin: 0;
-  /* Additional styles from default */
-  min-width: 12rem;
-  min-height: 24rem;
+  font-family: 'Arial', sans-serif;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  min-width: 40rem;
+  min-height: 30rem;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  color: #333;
+}
+
+#input {
+  font-size: 2rem;
+  color: #333;
+}
+
+#output {
+  color: rgba(46, 139, 87, 0.8);
+}
+
+.editable {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  background-color: #fff;
+  border-radius: 5px;
 }
