@@ -48,3 +48,8 @@ h1 {
   background-color: #fff;
   border-radius: 5px;
 }
+
+img {
+  margin-left: auto;
+  margin-right: auto; 
+}
