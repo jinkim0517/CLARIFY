@@ -3,8 +3,8 @@ body {
   margin: 20px;
   padding: 20px;
   background-color: #f4f4f4;
-  min-width: 40rem;
-  min-height: 30rem;
+  min-width: 25rem;
+  min-height: 25rem;
 }
 
 code {
