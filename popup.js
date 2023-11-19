@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             document.getElementById('output').style.opacity = 0.5
             document.getElementById('output').innerHTML = "Loading..."
             const port = chrome.runtime.connect();
-            port.postMessage({question: 'Explain the phrase ' + selection + ' as if I were not a native English speaker'});
+            port.postMessage({question: 'Explain the phrase ' + selection + ' as if I were not a native English speaker and provide an example. Make sure your response does not exceed 20 words. make sure the definition and example are separated into two sections. Use english that a child could understand.'});
             port.onMessage.addListener((msg) => showPopup(msg))
         } else {
             document.getElementById('input').style.opacity = 0.5
