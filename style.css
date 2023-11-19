@@ -4,10 +4,12 @@ html {
 
 body {
   font-family: 'Arial', sans-serif;
-  margin: 20px;
-  background-color: #f4f4f4;
+  padding: 20px;
+  background-color: white;
   min-width: 25rem;
   min-height: 25rem;
+  align-items: center;
+  align-content: center;
 }
 
 code {
@@ -19,7 +21,7 @@ h1 {
   font-weight: bold;
   font-size: 3rem;
   text-align: center;
-  color: #333;
+  color: #218aff;
 }
 
 #input {  
@@ -33,6 +35,11 @@ h1 {
   font-size: 1rem;
 }
 
+
+.logo {
+  max-width: 300px;
+  height: auto;
+}
 .editable {
   border: 1px solid #ccc;
   padding: 10px;
