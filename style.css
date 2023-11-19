@@ -22,6 +22,7 @@ h1 {
 #input {
   font-size: 2rem;
   color: #333;
+  text-align: center;
 }
 
 #output {

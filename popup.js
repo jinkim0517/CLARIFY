@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             document.getElementById('input').style.opacity = 1
             document.getElementById('output').innerHTML = "Clarifying Word..."
             const port = chrome.runtime.connect();
-            port.postMessage({question: 'Explain the phrase ' + selection + ' as if I were not a native English speaker and provide an example. Make sure your response does not exceed 20 words, unless you cannot finish the sentence otherwise. make sure the definition and example are separated into two sections. Use english that a child could understand. only respond with plain text and not markdown. never bold or italicize any text.'});
+            port.postMessage({question: 'Explain the phrase ' + selection + ' as if I were not a native English speaker and provide an example. Make sure your response does not exceed 40 words, unless you cannot finish the sentence otherwise. make sure the definition and example are separated into two sections. Use english that a child could understand. only respond with plain text and not markdown. never bold or italicize any text.'});
             port.onMessage.addListener((msg) => showPopup(msg))
         } else {
             document.getElementById('input').style.opacity = 0.5
