@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             port.onMessage.addListener((msg) => showPopup(msg))
         } else {
             document.getElementById('input').style.opacity = 0.5
-            document.getElementById('input').innerHTML = "Please select the text you would like to clarify."
+            document.getElementById('input').innerHTML = "Please select the text to clarify."
         }
     }
 
