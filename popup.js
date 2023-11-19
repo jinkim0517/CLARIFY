@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                 }
             } catch (e) {
                 document.getElementById('output').style.opacity = 1
-                document.getElementById('output').innerHTML = "Something went wrong. Please try in a few minutes."
+                document.getElementById('output').innerHTML = "Something went wrong. Please try again later."
             }
 
         } else if (answer === "CLOUDFLARE") {
@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             port.onMessage.addListener((msg) => showPopup(msg))
         } else {
             document.getElementById('input').style.opacity = 0.5
-            document.getElementById('input').innerHTML = "You have to first select some text"
+            document.getElementById('input').innerHTML = "Please select the text you would like to clarify."
         }
     }
 
