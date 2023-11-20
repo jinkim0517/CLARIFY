@@ -9,10 +9,10 @@
         "512": "assets/icons/icon.png"
     },
     "action": {
-        "default_popup": "popup.html"
+        "default_popup": "window.html"
     },
     "background": {
-        "service_worker": "background.js"
+        "service_worker": "backend.js"
     },
     "content_scripts": [
         {
