@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "CLARIFY",
-    "description": "A chrome extension that translates idioms through ChatGPT",
+    "description": "A chrome extension that translates idioms through OpenAI's API",
     "version": "1.0.0",
     "host_permissions": ["https://*.openai.com/"],
     "permissions": ["storage", "tabs"],
