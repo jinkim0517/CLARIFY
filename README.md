@@ -29,3 +29,5 @@ Learning how to connect with the OpenAI endpoint and all the syntax/structure th
 - Making sure the communication stays as accessible as possible
 
 Coded by Dean, Derek, Eric, and Jin at NWPlus' 2023 HackCamp
+
+[DevPost Link](https://devpost.com/software/clarify-umxfk3)
