@@ -1,5 +1,7 @@
 # CLARIFY
-![Alt Text](./assets/img/logo.png)
+![CLARIFY LOGO](./assets/img/logo.png)
+## Use case
+![Example use case of CLARIFY](./assets/img/example.png)
 ## Inspiration
 Learning a new language is hard enough, we wanted to make it easier for people to communicate with each other comfortably.
 ## What it does
